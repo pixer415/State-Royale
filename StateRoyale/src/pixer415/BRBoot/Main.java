@@ -69,16 +69,16 @@ public class Main {
 		Anim.f = new Font("Pixeled", Font.PLAIN, (int)Math.round((double)Camera.outRes.height / 3.0));
 		
 		// And here, the args are handled. Sorry, Apache Commons but I didn't want to deal with you.
-		//Args.handle(args);
+		Args.handle(args);
 	    
 		// Code to create a new mode from mem2.txt.
-		List<String> reed = Files.readAllLines(Paths.get("mem2.txt"), Charset.forName("UTF-8"));
-		String[] st = reed.get(reed.size() - 1).split("\",\"")[0].split("x");
-		mem2res[0] = Integer.parseInt(st[0]);
-		mem2res[1] = Integer.parseInt(st[1]);
-		modeSetup(6, reed, "Oceania");
-		reed = null;
-		System.gc();
+//		List<String> reed = Files.readAllLines(Paths.get("mem2.txt"), Charset.forName("UTF-8"));
+//		String[] st = reed.get(reed.size() - 1).split("\",\"")[0].split("x");
+//		mem2res[0] = Integer.parseInt(st[0]);
+//		mem2res[1] = Integer.parseInt(st[1]);
+//		modeSetup(6, reed, "Oceania");
+//		reed = null;
+//		System.gc();
 	}
 	
 	// Loads save file .zip from the hard disk.
