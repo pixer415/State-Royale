@@ -85,6 +85,7 @@ Elevation data is provided by the Wolfram Knowledge base with data from © OpenS
 
 Wolfram Research, Inc., Wolfram|Alpha Knowledgebase, Champaign, IL (2021).
 Map data from Wolfram Knowledgebase with data from © OpenStreetMap contributors: http://www.openstreetmap.org/copyright
+
 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) was used to upscale the image.
 
 Satellite imagery is provided by NASA's "Blue Marble Next Generation" Visible Earth project. The world image from August 2004 is used.
