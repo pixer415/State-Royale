@@ -77,7 +77,7 @@ With another ending arg:
 
 ## CREDITS
 
-Political map data is provided by the GADM project.
+Political map data is provided by the GADM project, version 2.8.
 
 Global Administrative Areas (boundaries). University of Berkeley, Museum of Vertebrate Zoology and the International Rice Research Institute (2012).
 
