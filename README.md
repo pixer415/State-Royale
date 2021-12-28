@@ -71,6 +71,7 @@ Skips all rewrite prompts, and does NOT overwrite any conflicting files.
 Overrides the default video resolution of 720x720. Always place this at the very end of your command.
 
 `startsave.zip endsave.zip video.mp4 -rm 4 -1920x1080`
+
 With another ending arg:
 `startsave.zip endsave.zip video.mp4 -rm 4 -oo -1920x1080`
 
