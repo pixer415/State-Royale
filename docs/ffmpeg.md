@@ -19,7 +19,7 @@
 
 ### Step 3
 
-- hit the ![](https://shields.io/badge/-fff?&logo=windows&logoColor=111) button on your keyboard
+- Hit the ![](https://shields.io/badge/-fff?&logo=windows&logoColor=111) button on your keyboard
 
 - Type in `cmd` and click "Run command prompt as Administrator"
 
