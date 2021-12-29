@@ -5,9 +5,9 @@ My first proper GitHub project, I guess. Basically an automated version of the "
 ## Prerequisites:
 - Java Runtime Environment 16
     - [All downloads](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
-    - Also works with [OpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk16&jvmVariant=hotspot), guys
+    - Also works with [OpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk16&jvmVariant=hotspot)
 - FFmpeg
-    - [Windows (this guy explains it well)](https://www.youtube.com/watch?v=r1AtmY-RMyQ)
+    - Windows: [instructions](docs/ffmpeg.md)
     - macOS: `brew install ffmpeg` (needs [Homebrew](https://brew.sh/))
     - Linux: use package manager.
 
