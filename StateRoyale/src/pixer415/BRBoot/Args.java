@@ -42,8 +42,12 @@ public class Args {
         	}
     	}
     	} catch (Exception e) {
-    		System.err.println("error: unknown end arg error - exiting");
-    		System.exit(0);
+    		if (args.length > 0 && args[args.length - 1].endsWith("help")) {
+    			// put help heer
+    		} else {
+    			System.err.println("error: unknown end arg error - exiting");
+        		System.exit(0);
+    		}
     	}
     	// Handles botched commands that are less than 3 args long.
     	if (args.length < 3) {
