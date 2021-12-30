@@ -182,7 +182,7 @@ public class Args {
     		if (fr.exists()) {
     		   switch (endArg) {
                 case 0:
-            	    System.out.print("(" + arg + ")" + OVERWRITE_WARNING + YN_PROMPT);
+            	    System.out.print("(" + arg + ") " + OVERWRITE_WARNING + YN_PROMPT);
             	    ov = yNInput();
             	    break;
                 case 1:
