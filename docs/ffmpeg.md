@@ -39,7 +39,7 @@
 
 - Hit the ![](https://shields.io/badge/-fff?&logo=windows&logoColor=111) button on your keyboard
 - Type in `cmd` and hit the <kbd>Enter</kbd> button on your keyboard
-- Type in `ffmpeg --version` into the prompt and hit the <kbd>Enter</kbd> button on your keyboard
+- Type in `ffmpeg -version` into the prompt and hit the <kbd>Enter</kbd> button on your keyboard
 - If it shows something similar to the screenshot below, congratulations, you've installed FFMPEG! :tada: 
 
 ![verifying ffmpeg installation on windows](https://media.geeksforgeeks.org/wp-content/uploads/20210912212115/Screenshotfrom20210912212044.png)
