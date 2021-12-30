@@ -1,6 +1,8 @@
+![GitHub all releases](https://img.shields.io/github/downloads/pixer415/State-Royale/total?color=blue&style=plastic) ![GitHub issues](https://img.shields.io/github/issues/pixer415/State-Royale?color=red&style=plastic) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/pixer415/State-Royale?style=plastic) ![GitHub](https://img.shields.io/github/license/pixer415/State-Royale?color=yellow&style=plastic)
+
+
 # State-Royale
-My first proper GitHub project, I guess. Basically an automated version of the "Battle Royale" short series on Geo Facts' YouTube channel.
-**Please credit this repo when you use this program! And don't change the watermark!**
+
 
 ## Prerequisites:
 - Java Runtime Environment 16
