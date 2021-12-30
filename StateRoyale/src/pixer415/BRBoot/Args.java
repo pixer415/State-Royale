@@ -20,30 +20,30 @@ public class Args {
 	public static final String YN_PROMPT = "\n(Y/N): ";
     public static void handle(String[] args) throws Exception {
     	// Handles end argument
-    	try {
-    	System.out.println("Reading args.....");
-    	if (args[args.length - 1].equalsIgnoreCase("-OO")) {
-    		endArg = 1;
-    		args = Arrays.copyOf(args, args.length-1);
-    	} else if (args[args.length - 1].equalsIgnoreCase("-NO")) {
-    		endArg = 2;
-    		args = Arrays.copyOf(args, args.length-1);
-    	} else if (isValidResArg(args[args.length - 1])) {
-    		String[] sp = args[args.length-1].split("x");
-    		Camera.changeRes(Integer.parseInt(sp[0].substring(1)), Integer.parseInt(sp[1]));
-    		// Copy of the end argument handler. So both the resolution argument and the overwrite-related arguments can be used.
-    		args = Arrays.copyOf(args, args.length-1);
-    		if (args[args.length - 1].equalsIgnoreCase("-OO")) {
-        		endArg = 1;
-        		args = Arrays.copyOf(args, args.length-1);
-        	} else if (args[args.length - 1].equalsIgnoreCase("-NO")) {
-        		endArg = 2;
-        		args = Arrays.copyOf(args, args.length-1);
-        	}
-    	}
-    	} catch (Exception e) {
-    		if (args.length > 0 && args[args.length - 1].endsWith("help")) {
-    			// put help heer
+    	if (args.length > 1) {
+	    	System.out.println("Reading args.....");
+	    	if (args[args.length - 1].equalsIgnoreCase("-OO")) {
+	    		endArg = 1;
+	    		args = Arrays.copyOf(args, args.length-1);
+	    	} else if (args[args.length - 1].equalsIgnoreCase("-NO")) {
+	    		endArg = 2;
+	    		args = Arrays.copyOf(args, args.length-1);
+	    	} else if (isValidResArg(args[args.length - 1])) {
+	    		String[] sp = args[args.length-1].split("x");
+	    		Camera.changeRes(Integer.parseInt(sp[0].substring(1)), Integer.parseInt(sp[1]));
+	    		// Copy of the end argument handler. So both the resolution argument and the overwrite-related arguments can be used.
+	    		args = Arrays.copyOf(args, args.length-1);
+	    		if (args[args.length - 1].equalsIgnoreCase("-OO")) {
+	        		endArg = 1;
+	        		args = Arrays.copyOf(args, args.length-1);
+	        	} else if (args[args.length - 1].equalsIgnoreCase("-NO")) {
+	        		endArg = 2;
+	        		args = Arrays.copyOf(args, args.length-1);
+	        	}
+	    	} 
+    	} else {
+    		if (args.length == 0 || args[args.length - 1].endsWith("-help")) {
+    			// help placeholder for now
     		} else {
     			System.err.println("error: unknown end arg error - exiting");
         		System.exit(0);
@@ -186,7 +186,7 @@ public class Args {
     		if (fr.exists()) {
     		   switch (endArg) {
                 case 0:
-            	    System.out.print("(" + arg + ")" + OVERWRITE_WARNING + YN_PROMPT);
+            	    System.out.print("(" + arg + ") " + OVERWRITE_WARNING + YN_PROMPT);
             	    ov = yNInput();
             	    break;
                 case 1:

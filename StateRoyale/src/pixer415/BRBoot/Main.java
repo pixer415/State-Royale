@@ -177,7 +177,7 @@ public class Main {
 		renderLabels(r.getId());
 		regions.remove(r);
 		
-		// Renders out final "overview" shot.
+		// Renders out the final "overview" shot.
 		System.out.println("Rendering \"overview\" shot.");
         if (regions.size() == 1) {
 			endCaption = "Congratulations to " + regions.get(0).getName() + " for winning.";
@@ -187,7 +187,7 @@ public class Main {
 			endCaption = Integer.toString(regions.size()) + " places remain.";
 			borderPrintOut(boundingBox, 24, false, endCaption);
 			if (n == 2) {
-	        	borderPrintOut(boundingBox, 8, false, "Which place you want to get out?");
+	        	borderPrintOut(boundingBox, 8, false, "Which place do you want to get out?");
 	        }
 		}
         
