@@ -187,7 +187,7 @@ public class Main {
 			endCaption = Integer.toString(regions.size()) + " places remain.";
 			borderPrintOut(boundingBox, 24, false, endCaption);
 			if (n == 2) {
-	        	borderPrintOut(boundingBox, 8, false, "Which place you want to get out?");
+	        	borderPrintOut(boundingBox, 8, false, "Which place do you want to get out?");
 	        }
 		}
         
