@@ -20,8 +20,8 @@ Examples of program video output are linked [here.](https://github.com/pixer415/
 State-Royale is an interactive nation-conquering simulator.
 
 The program aims to automatically generate entertainment simulation videos 
-based on the "Battle Royale" series of short videos created by the YouTube channel GeoFacts(LINK TO CHANNEL)
-Examples of these videos are provided here.(link to playlist of the shorts series)
+based on the "Battle Royale" series of short videos created by the YouTube channel [Geo Facts.](https://www.youtube.com/channel/UCmdhBdB4OUJ820bdI-QeecA)
+Examples of these videos are provided [here.](https://www.youtube.com/watch?v=Zn3Dco93rS0&list=PLqA3Phe0ecPXiFRGSPUYBszkQPlWARadr)
 
 The purpose of this program is to create a simulation in which all of the regions in a geographic area (for example, the 50 states of the United States)
 go head to head in an elimination battle. Each region is eliminated at random (or at the behest of a user), one by one. 
@@ -48,7 +48,7 @@ An overview of the current situation is then shown.
 
 This process, again, can continue until one region remains on the map and it rules the area.
 
-# Instructions
+## Instructions
 
 ### Prerequisites:
 - Java Runtime Environment 16
@@ -140,7 +140,26 @@ Flags:
 
 (An "ffmpeg_output_msg.txt" file will also be created next to the .jar. This is the console output of ffmpeg.)
 
-# TO-DO
+## TO-DO
 - Make an actually good CLI interface using org.apache.commons.cli
 - Add a GUI element of some sort
 - Add display options for the output videos
+
+## CREDITS
+
+Political map data is provided by the GADM project, version 2.8.
+
+Global Administrative Areas (boundaries). University of Berkeley, Museum of Vertebrate Zoology and the International Rice Research Institute (2012).
+
+Elevation data is provided by the Wolfram Knowledge base with data from © OpenStreetMap contributors.
+
+Wolfram Research, Inc., Wolfram|Alpha Knowledgebase, Champaign, IL (2021).
+Map data from Wolfram Knowledgebase with data from © OpenStreetMap contributors: http://www.openstreetmap.org/copyright
+
+[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) was used to upscale the image.
+
+Satellite imagery is provided by NASA's "Blue Marble Next Generation" Visible Earth project. The world image from August 2004 is used.
+
+The Pixeled font was made by [OmegaPC777 on Dafont.com.](https://www.dafont.com/omegapc777.d6598)
+
+The KdTree implementation was created by [Jilocasin on GitHub.](https://github.com/Jilocasin/nearest-neighbour)
