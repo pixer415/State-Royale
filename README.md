@@ -55,7 +55,7 @@ This process, again, can continue until one region remains on the map and it rul
     - [All downloads](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
     - Also works with [OpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk16&jvmVariant=hotspot)
 - FFmpeg
-    - Windows: [instructions](docs/FFMPEG.md)
+    - Windows: [instructions](FFMPEG.md)
     - macOS: `brew install ffmpeg` (needs [Homebrew](https://brew.sh/))
     - Linux: use package manager.
 
