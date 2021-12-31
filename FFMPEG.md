@@ -4,7 +4,7 @@
 
 - A computer running Windows 7 or later
 - Administrator permissions on said computer
-- 7-Zip [![](https://shields.io/badge/Download-7zip-fff?&logo=windows-95&style=flat-square&logoColor=fff)]((https://www.7-zip.org/))
+- 7-Zip [![](https://shields.io/badge/Download-7zip-fff?&logo=windows-95&style=flat-square&logoColor=fff)](https://www.7-zip.org/)
 
 ### Step 1
 
@@ -19,7 +19,7 @@
 
 ### Step 3
 
-- hit the ![](https://shields.io/badge/-fff?&logo=windows&logoColor=111)button on your keyboard
+- Hit the ![](https://shields.io/badge/-fff?&logo=windows&logoColor=111) button on your keyboard
 
 - Type in `cmd` and click "Run command prompt as Administrator"
 
@@ -37,9 +37,9 @@
 
 ### Step 5.
 
-- Hit the ![](https://shields.io/badge/-fff?&logo=windows&logoColor=111)button on your keyboard
+- Hit the ![](https://shields.io/badge/-fff?&logo=windows&logoColor=111) button on your keyboard
 - Type in `cmd` and hit the <kbd>Enter</kbd> button on your keyboard
-- Type in `ffmpeg --version` into the prompt and hit the <kbd>Enter</kbd> button on your keyboard
+- Type in `ffmpeg -version` into the prompt and hit the <kbd>Enter</kbd> button on your keyboard
 - If it shows something similar to the screenshot below, congratulations, you've installed FFMPEG! :tada: 
 
 ![verifying ffmpeg installation on windows](https://media.geeksforgeeks.org/wp-content/uploads/20210912212115/Screenshotfrom20210912212044.png)
