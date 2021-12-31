@@ -18,6 +18,7 @@ public class Args {
 	public static Scanner input = new Scanner(System.in);
 	public static final String OVERWRITE_WARNING = "This file already exists. Would you like to overwrite it?";
 	public static final String YN_PROMPT = "\n(Y/N): ";
+    public static String help = "";
     public static void handle(String[] args) throws Exception {
     	// Handles end argument
     	if (args.length > 1) {
@@ -42,8 +43,9 @@ public class Args {
 	        	}
 	    	} 
     	} else {
-    		if (args.length == 0 || args[args.length - 1].endsWith("-help")) {
-    			// help placeholder for now
+    		if (args.length == 0 || args[args.length - 1].equals("-help")) {
+    			System.out.println("\n" + help);
+        		System.exit(0);
     		} else {
     			System.err.println("error: unknown end arg error - exiting");
         		System.exit(0);

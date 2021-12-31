@@ -58,6 +58,7 @@ public class Main {
 			Anim.pullScene = ImageIO.read(Main.class.getResource("/pullscene.png"));
 			Anim.pullScene2 = ImageIO.read(Main.class.getResource("/pullscene2.png"));
 			Anim.watermark = ImageIO.read(Main.class.getResource("/watermark.png"));
+			Args.help = new String(Main.class.getResourceAsStream("/help.txt").readAllBytes(), StandardCharsets.UTF_8);
 			GraphicsEnvironment ge = 
 			    GraphicsEnvironment.getLocalGraphicsEnvironment();
 			ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, Main.class.getResource("/Pixeled.ttf").openStream())); // The Pixeled font by DaFont user OmegaPC777 is used.
