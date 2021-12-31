@@ -32,19 +32,19 @@ This process continues until a single region rules the entire area.
 
 Each output video begins with an overview map of a geographic area, either from one of the base files provided or a user-generated save file.
 
-example-1
+![example-1](https://user-images.githubusercontent.com/85858954/147831813-4c6c9b99-13de-4aeb-b76c-6cae4397addc.png)
 
 One of the regions then is selected either randomly or by the user. In this case, Argentina was selected by the user.
 
-example-2
+![example-2](https://user-images.githubusercontent.com/85858954/147831891-c2a8d524-f952-42f3-bb7a-e102a0742f09.gif)
 
 The region is then shown being partitioned and removed.
 
-example-3
+![example-3](https://user-images.githubusercontent.com/85858954/147832012-190d6ace-a3c4-4614-bce4-622753381ae5.gif)
 
 An overview of the current situation is then shown.
 
-example-4
+![example-4](https://user-images.githubusercontent.com/85858954/147832057-e019a1af-b1b3-4cef-bb22-ee0f952a0427.png)
 
 This process, again, can continue until one region remains on the map and it rules the area.
 
@@ -58,7 +58,7 @@ This process, again, can continue until one region remains on the map and it rul
     - Windows: [instructions](docs/ffmpeg.md)
     - macOS: `brew install ffmpeg` (needs [Homebrew](https://brew.sh/))
     - Linux: use package manager.
-    - 
+
 ### Getting started:
 To get started, download the latest jar from the releases page.
 
