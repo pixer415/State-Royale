@@ -1,0 +1,82 @@
+Usage: java -jar State-Royale-[version].jar <flags>
+The flags and the example commands that use them are listed below. 
+
+(Don't forget to go to https://github.com/pixer415/State-Royale/tree/main/StateRoyale, 
+ download one of the .zip files, and place it in the same directory as the jar 
+ if you haven't! That's your input.zip, at least until you've created an output.zip.)
+
+(output.zip is the save file that will be generated, saving your progress on the current battle royale; 
+ it can also be used as an input.zip once it is created.)
+
+(video.mp4 is the entertainment simulation video that will be generated based on the 
+ regional eliminations selected. Examples of the content seen in these videos are shown in EXAMPLES.md.)
+
+(An "ffmpeg_output_msg.txt" file will also be created next to the .jar. This is the console output of ffmpeg.)
+
+Flags:
+-rm: Eliminates either: 
+     - a set number of remaining regions, chosen randomly
+     - regions specified by name in a randomized order 
+     - regions specified by name in the order presented (use rm!)
+     - all of the remaining regions in a save file
+
+     Examples:
+
+     java -jar State-Royale-[version].jar input.zip output.zip video.mp4 -rm <integer arg>
+     java -jar State-Royale-[version].jar input.zip output.zip video.mp4 -rm <region1> <region2> <and> <so> <on>
+     java -jar State-Royale-[version].jar input.zip output.zip video.mp4 -rm! <region1> <region2> <and> <so> <on>
+          // must be invoked after the input, output, and video files, in that order
+
+     java -jar State-Royale-[version].jar input.zip -rm video.mp4 
+          // must be invoked before the video file
+
+-pl: Similar to -rm!, but uses the "pedastal" animation for video.mp4 instead of the default 
+     "slot machine" one. Ideal for poll results. 
+
+     Example:
+
+     java -jar State-Royale-[version].jar input.zip output.zip video.mp4 -pl <region1> <region2>
+          // must be invoked after the input, output, and video files, in that order
+
+-ls: Creates a .txt containing a comma-separated list of regions remaining in a .zip file. 
+
+     Example:
+
+     java -jar State-Royale-[version].jar input.zip -ls list.txt
+          // must be invoked before the text file
+
+-oo: Overrides any overwrite prompts, and overwrites any conflicting files. 
+
+     Example:
+
+     java -jar State-Royale-[version].jar input.zip -ls list.txt -oo
+          // must be invoked at the very end of the command
+
+-no: Overrides any overwrite prompts, and does NOT overwrite any conflicting files. 
+
+     Example:
+
+     java -jar State-Royale-[version].jar input.zip -ls list.txt -no 
+          // must be invoked at the very end of the command
+
+-[x]x[y]: Overrides the default video resolution of 720x720 for -rm and -pl. 
+
+     Example:
+
+     java -jar State-Royale-[version].jar input.zip -rm video.mp4 -1920x1080
+          // must be invoked at the very end of the command; must be invoked after -oo or -no if they are used.
+
+-help: Displays this CLI usage guide. This guide also appears when no args are present. 
+ 
+     Example:
+
+     java -jar State-Royale-[version].jar -help
+          // must be invoked as the only arg in the command
+
+
+     
+
+
+    
+
+
