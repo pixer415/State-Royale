@@ -132,7 +132,7 @@ Flags:
      java -jar State-Royale-[version].jar -help
           // must be invoked as the only arg in the command
 ```
-(input.zip was mentioned earlier in this readme.)
+(input.zip was mentioned [earlier in this readme.](github.com/<organization>/<repository>/blob/<branch_name>/README.md?plain=1#L14))
 
 (output.zip is the save file that will be generated, saving your progress on the current battle royale; it can also be used as an input.zip once it is created.)
 
