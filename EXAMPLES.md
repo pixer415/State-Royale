@@ -1,7 +1,7 @@
-[java -jar State-Royale-1.0.1.jar Asia.zip save.zip video.mp4 -rm 4]
-[java -jar State-Royale-1.0.1.jar SouthAmerica.zip save.zip video1.mp4 -rm Argentina (example used in explanation)]
-[java -jar State-Royale-1.0.1.jar SouthAmerica.zip -rm video2.mp4]
-[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video3.mp4 -rm England France Germany] 
-[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video4.mp4 -pl England France Germany] 
-[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video5.mp4 -rm! England France Germany]
-[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video6.mp4 -rm England France -1920x1080]
+![java -jar State-Royale-1.0.1.jar Asia.zip save.zip video.mp4 -rm 4](https://user-images.githubusercontent.com/85858954/147835255-f647adc3-d7ae-4af2-aa00-b28c010224ea.mp4)
+![java -jar State-Royale-1.0.1.jar SouthAmerica.zip save.zip video1.mp4 -rm Argentina (example used in explanation)](https://user-images.githubusercontent.com/85858954/147835258-f0f681f1-e54a-4e4f-bc1c-4fd46e4ce8da.mp4)
+![java -jar State-Royale-1.0.1.jar SouthAmerica.zip -rm video2.mp4](https://user-images.githubusercontent.com/85858954/147835270-4e0c0fe4-00fd-4956-b9ce-26fcec3de55e.mp4)
+![java -jar State-Royale-1.0.1.jar Europe.zip save.zip video3.mp4 -rm England France Germany](https://user-images.githubusercontent.com/85858954/147835279-206b7f07-1a48-4525-9f9e-24d25065cf7e.mp4)
+![java -jar State-Royale-1.0.1.jar Europe.zip save.zip video4.mp4 -pl England France Germany](https://user-images.githubusercontent.com/85858954/147835290-2451f645-3cfe-4800-80a2-afe920332b47.mp4)
+![java -jar State-Royale-1.0.1.jar Europe.zip save.zip video5.mp4 -rm! England France Germany](https://user-images.githubusercontent.com/85858954/147835293-2c3c83d3-5b07-4dd8-b079-3497be2d3c75.mp4)
+![java -jar State-Royale-1.0.1.jar Europe.zip save.zip video6.mp4 -rm England France -1920x1080](https://user-images.githubusercontent.com/85858954/147835302-b63c764a-856b-46be-97c0-7d62d6502193.mp4)
