@@ -48,27 +48,30 @@ example-4
 
 This process, again, can continue until one region remains on the map and it rules the area.
 
-Instructions
-Prerequisites:
-Java Runtime Environment 16
-All downloads
-Also works with OpenJDK
-FFmpeg
-Windows: instructions
-macOS: brew install ffmpeg (needs Homebrew)
-Linux: use package manager.
-Getting started:
+# Instructions
+
+### Prerequisites:
+- Java Runtime Environment 16
+    - [All downloads](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
+    - Also works with [OpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk16&jvmVariant=hotspot)
+- FFmpeg
+    - Windows: [instructions](docs/ffmpeg.md)
+    - macOS: `brew install ffmpeg` (needs [Homebrew](https://brew.sh/))
+    - Linux: use package manager.
+    - 
+### Getting started:
 To get started, download the latest jar from the releases page.
 
-
+<img src=https://user-images.githubusercontent.com/85858954/147833464-6fb0b3f6-53fc-41f3-bb55-ad76abe2da4e.png" height="360" />
 
 Then, go here and download one of the base area .zip files, or input.zip as it will henceforth be known. Place it in the same directory as the .jar file.
-
-
+                                                                                                                            
+<img src=https://user-images.githubusercontent.com/85858954/147832236-22066a37-6454-4a23-a68d-28c317b35551.png" height="360" />
 
 CLI usage:
-java -jar State-Royale-[version].jar <flags> The flags and the example commands that use them are listed below. Replace [version] with whatever's the version number (ex: State-Royale-1.0.1.jar)
+`java -jar State-Royale-[version].jar <flags>` The flags and the example commands that use them are listed below. Replace [version] with whatever's the version number (ex: State-Royale-1.0.1.jar)
 
+```
 Flags:
 -rm: Eliminates either: 
      - a set number of remaining regions, chosen randomly
@@ -128,6 +131,7 @@ Flags:
 
      java -jar State-Royale-[version].jar -help
           // must be invoked as the only arg in the command
+```
 (input.zip was mentioned earlier in this readme.)
 
 (output.zip is the save file that will be generated, saving your progress on the current battle royale; it can also be used as an input.zip once it is created.)
@@ -136,23 +140,7 @@ Flags:
 
 (An "ffmpeg_output_msg.txt" file will also be created next to the .jar. This is the console output of ffmpeg.)
 
-TO-DO
-Make an actually good CLI interface using org.apache.commons.cli
-Add a GUI element of some sort
-Add display options for the output videos
-CREDITS
-Political map data is provided by the GADM project, version 2.8.
-
-Global Administrative Areas (boundaries). University of Berkeley, Museum of Vertebrate Zoology and the International Rice Research Institute (2012).
-
-Elevation data is provided by the Wolfram Knowledge base with data from © OpenStreetMap contributors.
-
-Wolfram Research, Inc., Wolfram|Alpha Knowledgebase, Champaign, IL (2021). Map data from Wolfram Knowledgebase with data from © OpenStreetMap contributors: http://www.openstreetmap.org/copyright
-
-Real-ESRGAN was used to upscale the elevation image.
-
-Satellite imagery is provided by NASA's "Blue Marble Next Generation" Visible Earth project. The world image from August 2004 is used.
-
-The Pixeled font was made by OmegaPC777 on Dafont.com.
-
-The KdTree implementation was created by Jilocasin on GitHub.
+# TO-DO
+- Make an actually good CLI interface using org.apache.commons.cli
+- Add a GUI element of some sort
+- Add display options for the output videos
