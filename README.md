@@ -1,24 +1,34 @@
-GitHub all releases GitHub issues GitHub closed issues GitHub
+![GitHub all releases](https://img.shields.io/github/downloads/pixer415/State-Royale/total?color=blue&style=plastic) ![GitHub issues](https://img.shields.io/github/issues/pixer415/State-Royale?color=red&style=plastic) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/pixer415/State-Royale?style=plastic) ![GitHub](https://img.shields.io/github/license/pixer415/State-Royale?color=yellow&style=plastic)
 
-State-Royale
-Various examples of program output
+# State-Royale
 
-Made by Pixer415, with some help from ThatOneCalculator
-twitter voring.me (mastodon)
-This project needs your contributions. New modes/new features/typo fixes/suggestions/maintenance, etc. are welcomed. All contributors are listed here.
+![Various examples of program output](https://cdn.discordapp.com/attachments/926256179276034080/926260495256793138/topexamples.png)
 
-Please credit this repository when you use this program! If you like it, consider leaving a star on this repo!
+<h3 align="left">Made by <a href="https://twitter.com/pixer415">Pixer415</a>, with some help from <a href="https://t1c.dev">ThatOneCalculator</a></h3>
+<a href="https://twitter.com/pixer415" target="blank"><img src="https://shields.io/badge/follow-@pixer415-1DA1F2?logo=twitter&style=for-the-badge" alt="twitter"/></a>
+<a href="https://voring.me/@thatonecalculator" target="blank"><img src="https://shields.io/badge/follow-@thatonecalculator-3088D4?logo=mastodon&style=for-the-badge" alt="voring.me (mastodon)"/></a>
 
-Examples of program video output are linked here.
+This project needs your contributions. New modes/new features/typo fixes/suggestions/maintenance, etc. are welcomed. 
+All contributors are listed [here.](https://github.com/pixer415/State-Royale/graphs/contributors)
 
-Explanation
+<b>Please credit this repository when you use this program! If you like it, consider leaving a star on this repo!</b>
+
+Examples of program video output are linked [here.](https://github.com/pixer415/State-Royale/blob/main/EXAMPLES.md)
+
+## Explanation
+
 State-Royale is an interactive nation-conquering simulator.
 
-The program aims to automatically generate entertainment simulation videos based on the "Battle Royale" series of short videos created by the YouTuber Geo Facts. Examples of these videos are provided here.
+The program aims to automatically generate entertainment simulation videos 
+based on the "Battle Royale" series of short videos created by the YouTube channel GeoFacts(LINK TO CHANNEL)
+Examples of these videos are provided here.(link to playlist of the shorts series)
 
-The purpose of this program is to create a simulation in which all of the regions in a geographic area (for example, the 50 states of the United States) go head to head in an elimination battle. Each region is eliminated at random (or at the behest of a user), one by one. Eliminating a region is accomplished by geographically partitioning it amongst the regions that surround it. This process continues until a single region rules the entire area.
+The purpose of this program is to create a simulation in which all of the regions in a geographic area (for example, the 50 states of the United States)
+go head to head in an elimination battle. Each region is eliminated at random (or at the behest of a user), one by one. 
+Eliminating a region is accomplished by geographically partitioning it amongst the regions that surround it. 
+This process continues until a single region rules the entire area.
 
-Command to recreate the output shown below: java -jar State-Royale-1.0.1.jar SouthAmerica.zip save.zip video.mp4 -rm Argentina
+<i>Command to recreate the output shown below:</i> `java -jar State-Royale-1.0.1.jar SouthAmerica.zip save.zip video.mp4 -rm Argentina`
 
 Each output video begins with an overview map of a geographic area, either from one of the base files provided or a user-generated save file.
 
