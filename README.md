@@ -13,6 +13,8 @@ All contributors are listed [here.](https://github.com/pixer415/State-Royale/gra
 
 <b>Please credit this repository when you use this program! If you like it, consider leaving a star on this repo!</b>
 
+More examples of program output are linked [here.](https://github.com/pixer415/State-Royale/blob/main/EXAMPLES.md)
+
 ## Explanation
 
 State-Royale is an interactive nation-conquering simulator.
