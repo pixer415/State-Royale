@@ -62,11 +62,11 @@ This process, again, can continue until one region remains on the map and it rul
 ### Getting started:
 To get started, download the latest jar from the releases page.
 
-<img src=https://user-images.githubusercontent.com/85858954/147833464-6fb0b3f6-53fc-41f3-bb55-ad76abe2da4e.png" height="360" />
+<img src="https://user-images.githubusercontent.com/85858954/147833464-6fb0b3f6-53fc-41f3-bb55-ad76abe2da4e.png" height="360" />
 
 Then, go here and download one of the base area .zip files, or input.zip as it will henceforth be known. Place it in the same directory as the .jar file.
                                                                                                                             
-<img src=https://user-images.githubusercontent.com/85858954/147832236-22066a37-6454-4a23-a68d-28c317b35551.png" height="360" />
+<img src="https://user-images.githubusercontent.com/85858954/147832236-22066a37-6454-4a23-a68d-28c317b35551.png" height="360" />
 
 CLI usage:
 `java -jar State-Royale-[version].jar <flags>` The flags and the example commands that use them are listed below. Replace [version] with whatever's the version number (ex: State-Royale-1.0.1.jar)
