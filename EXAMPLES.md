@@ -1,0 +1,7 @@
+[java -jar State-Royale-1.0.1.jar Asia.zip save.zip video.mp4 -rm 4]
+[java -jar State-Royale-1.0.1.jar SouthAmerica.zip save.zip video1.mp4 -rm Argentina (example used in explanation)]
+[java -jar State-Royale-1.0.1.jar SouthAmerica.zip -rm video2.mp4]
+[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video3.mp4 -rm England France Germany] 
+[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video4.mp4 -pl England France Germany] 
+[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video5.mp4 -rm! England France Germany]
+[java -jar State-Royale-1.0.1.jar Europe.zip save.zip video6.mp4 -rm England France -1920x1080]
