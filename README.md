@@ -64,7 +64,7 @@ To get started, download the latest jar from the releases page.
 
 <img src="https://user-images.githubusercontent.com/85858954/147833464-6fb0b3f6-53fc-41f3-bb55-ad76abe2da4e.png" height="360" />
 
-Then, go here and download one of the base area .zip files, or input.zip as it will henceforth be known. Place it in the same directory as the .jar file.
+Then, go [here](https://github.com/pixer415/State-Royale/tree/main/StateRoyale) and download one of the base area .zip files, or input.zip as it will henceforth be known. Place it in the same directory as the .jar file.
                                                                                                                             
 <img src="https://user-images.githubusercontent.com/85858954/147832236-22066a37-6454-4a23-a68d-28c317b35551.png" height="360" />
 
@@ -156,7 +156,7 @@ Elevation data is provided by the Wolfram Knowledge base with data from © OpenS
 Wolfram Research, Inc., Wolfram|Alpha Knowledgebase, Champaign, IL (2021).
 Map data from Wolfram Knowledgebase with data from © OpenStreetMap contributors: http://www.openstreetmap.org/copyright
 
-[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) was used to upscale the image.
+[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) was used to upscale the Wolfram elevation image.
 
 Satellite imagery is provided by NASA's "Blue Marble Next Generation" Visible Earth project. The world image from August 2004 is used.
 
